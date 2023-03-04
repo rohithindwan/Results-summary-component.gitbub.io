@@ -11,6 +11,7 @@ main {
 .card {
   display: flex;
   background: white;
+  max-width: fit-content; 
   flex-direction: row;
   border-radius: 20px;
   box-shadow: 5px 10px 30px hsl(241, 100%, 89%);
