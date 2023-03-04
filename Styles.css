@@ -1,0 +1,120 @@
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+}
+main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  display: flex;
+  background: white;
+  flex-direction: row;
+  border-radius: 20px;
+  box-shadow: 5px 10px 30px hsl(241, 100%, 89%);
+}
+.result {
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  color: white;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  width: 350px;
+}
+.result h2 {
+  margin-top: 38px;
+}
+
+.circle {
+  background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+.circle h1 {
+  font-size: 60px;
+}
+.circle p {
+  font-size: 18px;
+  margin-top: -35px;
+  color: hsl(241, 100%, 89%);
+}
+.text {
+  text-align: center;
+  max-width: 100%;
+  font-size: 20px;
+  margin: 15px 42px;
+}
+.text p {
+  font-size: 18px;
+  color: hsl(241, 100%, 89%);
+}
+.summary {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+}
+.result-box {
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+  margin: 5px;
+}
+.result-box span {
+  color: black;
+  margin: 0px 9px 0px 90px;
+}
+img {
+  margin: 0px 10px 0px 10px;
+}
+
+#first {
+  background: hsl(6, 100%, 98%);
+  color: hsl(0, 100%, 67%);
+}
+#second {
+  background: hsl(42, 100%, 97%);
+  color: hsl(39, 100%, 56%);
+}
+#third {
+  background: hsl(173, 53%, 97%);
+  color: hsl(166, 100%, 37%);
+}
+#forth {
+  background: hsl(240, 71%, 97%);
+  color: hsl(234, 85%, 45%);
+}
+
+button {
+  background: hsl(224, 30%, 27%);
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 30px;
+  height: 50px;
+  margin-top: 40px;
+}
+button:hover {
+  background: hsl(246, 88%, 58%);
+}
+
+@media screen and (max-width: 1440px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 0px;
+    box-shadow: none;
+    max-width: 375px;
+  }
+  .result {
+    border-radius: 0px 0px 35px 35px;
+  }
+  .result-box span {
+    color: black;
+    margin: 0px 0px 0px 115px;
+  }
+}
